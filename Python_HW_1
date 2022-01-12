@@ -1,43 +1,52 @@
 Python_HW_1
 
+1) Создать переменную типа String
 a = 'Inna'
 print(type(a), a)
 
 
+2) Создать переменную типа Integer
 b = 25
 c = 30
 d = b + c
 print(type(d), d)
 
 
+3) Создать переменную типа Float
 i = 3.5
 print(type(i), i)
 
 
+4) Создать переменную типа Bytes
 b_type = bytes(12345)
 print(bytes)
 
 
+5) Создать переменную типа List
 list_type = ['Inna', 'Vadim', 'Dima', 'Ferra', True, ['32', '32', '40', '26']]
 print(list_type)
 
 
+6) Создать переменную типа Tuple
 typle_type = ('33', '44', 55)
 print(typle_type)
 
 
+7) Создать переменную типа Res
 name = 'Vadim'
 age = '32'
 res = name + str(age)
 print(name, age, res)
 
 
+8) Создать переменную типа Dict
 dict_type = {'key': 32,
              'name': 'Inna',
              'city': 'Kharkiv'}
 print(dict_type)
 
 
+9) Вывести в консоль все выше перечисленные переменные с добавлением типа данных.
 print(type(a), a)
 print(type(b), b)
 print(type(i), i)
@@ -48,12 +57,14 @@ print(name, age, res)
 print(dict_type)
 
 
+10) Создать 2 переменные String, создать переменную в которой сканкатенируете эти переменные. Вывести в консоль.
 west = 'L`vov'
 east = 'Kharkov'
 together = (west, east)
 print(together)
 
 
+11) Вывести в одну строку переменные типа String и Integer используя “,” (Запятую)
 a = 'Inna'
 b = 25
 c = 30
@@ -65,6 +76,7 @@ east = 'Kharkov'
 print(a, b, c, d, name, age, west, east)
 
 
+12) Вывести в одну строку переменные типа String и Integer используя “+” (Плюс)
 a = 'Inna'
 b = '25'
 c = '30'
