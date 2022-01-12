@@ -1,0 +1,76 @@
+Python_HW_1
+
+a = 'Inna'
+print(type(a), a)
+
+
+b = 25
+c = 30
+d = b + c
+print(type(d), d)
+
+
+i = 3.5
+print(type(i), i)
+
+
+b_type = bytes(12345)
+print(bytes)
+
+
+list_type = ['Inna', 'Vadim', 'Dima', 'Ferra', True, ['32', '32', '40', '26']]
+print(list_type)
+
+
+typle_type = ('33', '44', 55)
+print(typle_type)
+
+
+name = 'Vadim'
+age = '32'
+res = name + str(age)
+print(name, age, res)
+
+
+dict_type = {'key': 32,
+             'name': 'Inna',
+             'city': 'Kharkiv'}
+print(dict_type)
+
+
+print(type(a), a)
+print(type(b), b)
+print(type(i), i)
+print(bytes)
+print(list_type)
+print(typle_type)
+print(name, age, res)
+print(dict_type)
+
+
+west = 'L`vov'
+east = 'Kharkov'
+together = (west, east)
+print(together)
+
+
+a = 'Inna'
+b = 25
+c = 30
+d = b + c
+name = 'Vadim'
+age = '32'
+west = 'L`vov'
+east = 'Kharkov'
+print(a, b, c, d, name, age, west, east)
+
+
+a = 'Inna'
+b = '25'
+c = '30'
+d = b + c
+name = 'Vadim'
+age = '32'
+west = 'L`vov'
+east = 'Kharkov'
+print(a + b + c + d + name + age + west + east)
